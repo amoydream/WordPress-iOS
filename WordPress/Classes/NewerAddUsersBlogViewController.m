@@ -221,8 +221,6 @@
 		}
 	}
     
-    [[ContextManager sharedInstance] saveMainContext];
-    
     if (self.blogAdditionCompleted) {
         self.blogAdditionCompleted(self);
     }
